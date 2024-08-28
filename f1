@@ -1,0 +1,23 @@
+Compute optimized instance:
+  . It provides high-performance processors for compute intensive application.
+ . It will br ideal for high-performance web server scientific modeling and batch processing .
+  EX: C5 | C5a | C5ad | C5d |
+Memory optimized instance: 
+  . High memory to cpu ration for long data sets.
+ . perfect for in memory database,raltime big data analytics and high performace computing(HPC).
+   EX: R5 | R5a | R5ad | R5b | 
+Storage optimized instance:
+ . It provides optimized resource of instance for high, sequential read and write access for large datasets.
+ . Best for data warehousing hadoop and distrubuted file systems.
+       EX: D2 | D3 | D3en | H1 | I3 |      
+Accelerated compting instance: 
+  . Accelerated computing instances use hardware accelerators, or co-processors, to perform functions, such as floating point number calculations, graphics processing, or data pattern matching, more efficiently than is possible in software running on CPUs.
+EX: DL1 | DL2q | F1 | G4ad |
+Launch templates: 
+. A launch template can contain some or all the configration information to lauch an instace. when you launch an instance using a launch template,instance properties that are not specified in the launch template use default values, expect the imaged property which has no default value. 
+AWS EC2 Pricing: 
+    . The pricing of AWS EC2 instance is mainly going to depend upon the type of instance you are going to choose.
+. On-Demand instance:
+      . This instance is like a pay-as-you-go model where you have to pay only for the time you are going to use if the instance is stopped then the billing for the instance will be stopped when it was running you are going to be charged.the biling will be done based on the time EC2instance is running
+Reserved Instances:
+
